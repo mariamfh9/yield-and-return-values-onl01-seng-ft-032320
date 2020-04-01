@@ -6,5 +6,6 @@ def hello(array)
     collection << yield(array[i])
     i += 1
   end
+  #calls collection
   collection
 end
